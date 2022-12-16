@@ -1,5 +1,5 @@
 import requests
-res = requests.get("https://api.github.com/users/SHrEE-7/repos")
+res = requests.get("https://api.github.com/users/{gihub_username}/repos")
 my_repos = res.json()
 # print(my_repos[0])/
 
