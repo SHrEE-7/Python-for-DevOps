@@ -5,4 +5,4 @@ all_available_vpcs = ec2_client.describe_vpcs()
 vpcs = all_available_vpcs["Vpcs"]
 
 for vpc in vpcs:
-    pass
+    
