@@ -5,3 +5,4 @@ my_repos = res.json()
 
 for repository in my_repos:
     print(f"Repository Name:{repository['name']} --> Repository URL:{repository['url']}")
+    
