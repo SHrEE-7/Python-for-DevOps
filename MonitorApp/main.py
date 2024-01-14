@@ -13,7 +13,7 @@ def send_notification(msg):
         smtp.sendmail(EMAIL_ADDRESS, EMAIL_ADDRESS, msg)
 try:
     response = requests.get('http://13.234.48.115/')
-    if response.status_code != 200:
+    if response.status_code == 200:
         print('Application is running Successfully')
     else:
         print('Application Down. Fix it')
